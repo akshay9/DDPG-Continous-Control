@@ -89,6 +89,7 @@ EPSILON_DECAY = 0.999999  # Noise factor decay
 
 The environment was solved in 320 episodes after getting an average score of 30.04 for continous 100 episodes.
 The plot of rewards per episode is as follows.
+
 ![Graph][graph]
 
 ### Ideas for future work
@@ -96,3 +97,7 @@ The following optimisations can be implemented to improve the performance and ac
 - [PPO](https://arxiv.org/pdf/1707.06347.pdf)
 - [A3C](https://arxiv.org/pdf/1602.01783.pdf)
 - [D4PG](https://openreview.net/pdf?id=SyZipzbCb)
+
+### References
+- The Code is based on code implementation of DDPG with OpenAI Gym's BipedalWalker-v2 environment in Udacity's [Deep Reinforcement Learning Nanodegree](https://classroom.udacity.com/nanodegrees/nd893).
+- [Continuous control with deep reinforcement learning Paper](https://arxiv.org/pdf/1509.02971.pdf)
